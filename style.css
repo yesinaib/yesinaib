@@ -1,0 +1,52 @@
+*,h1,h2,h3,h4,h5,h6,p {
+	font-family: Montserrat;
+}
+
+img {
+	max-width: 100%;
+}
+
+h1 {
+	text-align: center;
+	color: #e5acd3;
+	font-weight: bolder;
+	letter-spacing: 4px;
+	font-size: 60px;
+	text-shadow: 10px 10px 12px rgba(0,0,0,30%);
+	margin-top: 1.5cm;
+}
+
+p {
+	margin-top: 32px; 	
+}
+#foto-yesi {
+	margin-top: 1.5cm;
+}
+.imagen-maquillaje{
+	margin-top: 1cm;
+	border-radius: 15px;
+	filter: grayscale(100%);
+	box-shadow: 0 0 4px gray;
+	transition: 0.2s;
+
+}
+
+.imagen-maquillaje:hover{
+	transform: scale(1.1);
+	filter: grayscale(0%)
+}
+
+.nav-link{
+	color: black;
+}
+.nav-link:hover{
+	color: magenta;
+}
+
+.logo{
+	height: 42px;
+	
+}
+.header{
+	margin-top: 1cm;
+}
